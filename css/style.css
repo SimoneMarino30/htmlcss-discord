@@ -5,9 +5,7 @@
 	align-items: center;
 	min-height: 80px;
 	padding: 10px 0;
-
-	/* debug */
-	background-color: lightblue;
+	background-color: #3161E0;
 }
 
 .header-nav {
@@ -19,19 +17,31 @@
 .header-nav>* {
 	flex-basis: 20%;
 	padding: 5px 10px;
-
-	/* debug */
-	background-color: goldenrod;
-	border: 2px dashed black;
 }
 
 .header-links {
 	flex-grow: 1;
 	text-align: center;
+	padding: 10px;
+}
+
+.header-links > * {
+	text-decoration: none;
+	color: white;
+	margin: 0 20px;
+	font-size: 16px;
 }
 
 .header-login {
 	text-align: right;
+}
+
+.login-button {
+	width: 60px;
+	height: 30px;
+	border-radius: 30px;
+	font-size: 12px;
+	border: none;	
 }
 
 /* JUMBOTRON */
@@ -40,19 +50,41 @@
 	padding: 50px 0;
 	display: flex;
 	justify-content: center;
-
-
-	/* debug */
-	background-color: darkblue;
+	background-image: url(../img/jumbo.png);
+	background-size: cover;
 }
 
 .jumbotron .content {
 	min-height: 400px;
 	width: 50%;
+	text-align: center;
+	color: white;	
+}
 
-	/* debug */
-	background-color: #ee82ee;
-	border: 2px dashed black;
+.content :first-child {
+	font-size: 60px;
+	padding-bottom: 30px;
+}
+
+.content :nth-child(2) {
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+
+.content-button {
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	font-size: 15px;
+	border: none;
+	font-weight: 600;
+	margin: 5px;
+}
+
+.browser {
+	width: 250px;
+	background-color: #23272A;
+	color: #FFFFFF;
 }
 
 /* MAIN & SECTIONS */

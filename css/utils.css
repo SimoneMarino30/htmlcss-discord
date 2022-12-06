@@ -10,3 +10,14 @@
 	clear: both;
 	display: table;
 }
+
+.gray-wave {
+	width: 100%;
+	display: block;
+}
+
+.white-wave {
+	width: 100%;
+	display: block;
+	background-color: #F6F6F6;
+}

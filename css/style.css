@@ -149,14 +149,24 @@ main>section>.container {
 	border: 2px dashed black; */
 }
 
-.hilighted-content :last-child {
+.stars {
+	display: block;
 	font-size: 30px;
 	font-weight: 900;
 	color: #23272A;
 }
 
-.stars {
-	display: block;
+.bottom-button {
+	width: 200px;
+	height: 50px;
+	border-radius: 30px;
+	font-size: 20px;
+	border: none;
+	font-weight: 600;
+	margin: 5px;
+	background-color: #8EA1E1;
+	color: #FFFFFF;
+	margin-top: 40px;
 }
 
 /* FOOTER */

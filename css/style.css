@@ -142,11 +142,6 @@ main>section>.container {
 .hilighted-content {
 	flex-grow: 1;
 	text-align: center;
-
-	/* debug */
-	min-height: 800px;
-	/* background-color: forestgreen;
-	border: 2px dashed black; */
 }
 
 .stars {
@@ -166,7 +161,7 @@ main>section>.container {
 	margin: 5px;
 	background-color: #8EA1E1;
 	color: #FFFFFF;
-	margin-top: 40px;
+	margin: 40px 0 40px 0;
 }
 
 /* FOOTER */
@@ -193,8 +188,33 @@ main>section>.container {
 	width: calc(100% / 3);
 
 	/* debug */
-	background-color: #f08080;
+	/* background-color: #f08080; */
 	border: 2px dashed black;
+}
+
+.flag {
+	width: 25px;
+	height: 20px;
+}
+
+#italiano {
+	background-color: transparent;
+	color: #FFFFFF;
+	margin-bottom: 10px;	
+}
+
+.footer-title {
+	font-size: 40px;
+	font-weight: 900;
+	color: #7289DA;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.fa-brands {
+	color: #FFFFFF;
+	font-size: 20px;
+	padding: 15px;
 }
 
 .footer-side-col {
